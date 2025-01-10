@@ -1,4 +1,4 @@
-;;; doom-nano-dark-theme.el --- Dark theme for Doom Emacs based on N Λ N O -*- lexical-binding: t; -*-
+;;; doom-nano-dark-theme.el --- Dark theme for Doom Emacs based on N Λ N O -*- lexical-binding: t; no-byte-compile: t; -*-
 
 ;; Copyright (C) 2023  Ronan Arraes Jardim Chagas
 ;;
@@ -40,6 +40,7 @@
 ;; This package provides a dark theme for Doom Emacs based on N Λ N O.
 
 ;;; Code:
+(require 'doom-themes)
 
 (defgroup doom-nano-dark-theme nil
   "Options for the `doom-nano-dark' theme."
